@@ -251,26 +251,26 @@ section .marcas-img {
 
 .container-card-categorias .card1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(/IMG/gatocachorro.jpg);
+    url('/IMG/gatocachorro.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .container-card-categorias .card2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(/IMG/gatoadulto.jpeg);
+    url('/IMG/gatoadulto.jpeg');
   background-size: cover;
 }
 
 .container-card-categorias .card3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(/IMG/perrocachorro.jpeg);
+    url('/IMG/perrocachorro.jpeg');
   background-size: cover;
 }
 
 .container-card-categorias .card4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(/IMG/perroadulto.png);
+    url('/IMG/perroadulto.png');
   background-size: cover;
   background-position: center;
 }
