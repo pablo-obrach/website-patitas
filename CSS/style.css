@@ -251,25 +251,26 @@ section .marcas-img {
 
 .container-card-categorias .card1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../IMG/gatocachorro.jpg');
+    url("../IMG/gatocachorro.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .container-card-categorias .card2 {
-  background-image: url('../IMG/gatoadulto.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://github.com/pablo-obrach/website-patitas/blob/main/IMG/gatoadulto.jpeg");
   background-size: cover;
 }
 
 .container-card-categorias .card3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../IMG/perrocachorro.jpeg');
+    url("../IMG/perrocachorro.jpeg");
   background-size: cover;
 }
 
 .container-card-categorias .card4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../IMG/perroadulto.png');
+    url("../IMG/perroadulto.png");
   background-size: cover;
   background-position: center;
 }
@@ -679,47 +680,38 @@ main .contenedor-tiendas {
   box-shadow: 0.5rem 0.5rem 5px 3px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
   .nosotros-info .contenedor-info {
     display: grid;
     grid-template-columns: 1fr;
   }
 
   .contenedor-info .img-info img {
-    width: 100%
+    width: 100%;
   }
 
   .contenedor-fkfoot .fkft-list a {
     text-decoration: none;
     color: #fff;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 
   .contenedor-fkfoot .logo-texto-fkft p {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 
   .contenedor-dtos .textos-dtos h2,
   .contenedor-dtos .textos-dtos p {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 
   .contenedor-info-fkft .sociales-icon ul {
     padding: 0;
   }
-
 }
 
-
-@media (max-width:320px) {
-
+@media (max-width: 320px) {
 }
-
-
-
-
-
