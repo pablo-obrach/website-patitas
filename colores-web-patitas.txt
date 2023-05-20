@@ -1,0 +1,8 @@
+:root {
+    var-color-1: #75A9F9; //azul claro
+    var-color-2: #A8C6FA; //celeste
+    var-color-3: #DACAFB; //lila
+    var-color-4: #B38DF7; //lila oscuro
+    var-color-5:"#C0A1F8; //lila intermedio
+}
+	
