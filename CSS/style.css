@@ -258,7 +258,7 @@ section .marcas-img {
 
 .container-card-categorias .card2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://github.com/pablo-obrach/website-patitas/blob/main/IMG/gatoadulto.jpeg");
+    url("../IMG/gatoadulto.jpeg");
   background-size: cover;
 }
 
