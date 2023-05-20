@@ -257,8 +257,7 @@ section .marcas-img {
 }
 
 .container-card-categorias .card2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../IMG/gatoadulto.jpeg');
+  background-image: url('../IMG/gatoadulto.jpeg');
   background-size: cover;
 }
 
