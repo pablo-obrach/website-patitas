@@ -690,7 +690,7 @@ main .contenedor-tiendas {
 }
 
 @media (max-width: 480px) {
-  .marcas h2 {
+  main .marcas h2 {
     font-size: 1rem;
   }
 
@@ -718,11 +718,11 @@ main .contenedor-tiendas {
     font-size: 1rem;
   }
 
-  .categorias h2 {
+  main .categorias h2 {
     font-size: 1rem;
   }
 
-  .container-card-categorias {
+  .categorias .container-card-categorias {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -784,17 +784,17 @@ main .contenedor-tiendas {
     display: inline-block;
   }
 
-  .contenedor-info-fkft li {
+  .contenedor-fkfoot .contenedor-info-fkft li {
     font-size: 0.5rem;
+  }
+
+  footer .contenedor-footer {
+    padding: 0.5rem;
   }
 
   .contenedor-footer ul {
     margin: 0;
     padding: 0;
-  }
-
-  footer .contenedor-footer {
-    padding: 0.5rem;
   }
 
   .contenedor-footer li,
