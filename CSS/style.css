@@ -120,7 +120,7 @@ section .marcas-img {
   padding: 2rem;
 }
 
-.contenedor-info .img-info {
+.contenedor-info .img-info img{
   width: 100%;
 }
 
@@ -188,6 +188,7 @@ section .marcas-img {
   border: 2px solid #0000004f;
   border-radius: 10px;
   background: #fff;
+ 
 }
 
 .contenedor-card-options .card:hover {
@@ -195,18 +196,21 @@ section .marcas-img {
 }
 
 .card img {
-  width: 50%;
-  margin: 0.5rem 0;
+  /* width: 50%; */
+  margin: .5rem .5rem;
   align-self: center;
-}
-
-.card hr {
-  margin-bottom: 0.5rem;
+  background: rgba(50, 129, 239, 0.2);
+  padding: 1rem;
+  border-radius: .5rem;
+  
 }
 
 .card .textos-options {
   text-align: left;
   padding: 0.5rem;
+  background: rgba(84, 220, 38, 0.4);
+  margin: .5rem .5rem;
+  border-radius: .5rem;
 }
 
 .textos-options h3 {
@@ -315,6 +319,8 @@ section .marcas-img {
 
 .contenedor-fkfoot .fkft-list ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .contenedor-fkfoot .fkft-list li {
@@ -385,6 +391,8 @@ section .marcas-img {
 
 .contenedor-info-fkft ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .contenedor-info-fkft li {
