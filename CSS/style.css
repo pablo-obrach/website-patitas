@@ -120,7 +120,7 @@ section .marcas-img {
   padding: 2rem;
 }
 
-.contenedor-info .img-info img{
+.contenedor-info .img-info img {
   width: 100%;
 }
 
@@ -188,7 +188,6 @@ section .marcas-img {
   border: 2px solid #0000004f;
   border-radius: 10px;
   background: #fff;
- 
 }
 
 .contenedor-card-options .card:hover {
@@ -197,20 +196,19 @@ section .marcas-img {
 
 .card img {
   /* width: 50%; */
-  margin: .5rem .5rem;
+  margin: 0.5rem 0.5rem;
   align-self: center;
   background: rgba(50, 129, 239, 0.2);
   padding: 1rem;
-  border-radius: .5rem;
-  
+  border-radius: 0.5rem;
 }
 
 .card .textos-options {
   text-align: left;
   padding: 0.5rem;
   background: rgba(84, 220, 38, 0.4);
-  margin: .5rem .5rem;
-  border-radius: .5rem;
+  margin: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .textos-options h3 {
@@ -692,12 +690,44 @@ main .contenedor-tiendas {
 }
 
 @media (max-width: 480px) {
+  .marcas h2 {
+    font-size: 1rem;
+  }
+
   .nosotros-info .contenedor-info {
     display: grid;
     grid-template-columns: 1fr;
   }
 
   .contenedor-info .img-info img {
+    width: 100%;
+  }
+
+  .contenedor-info .textos-info p {
+    font-size: 1rem;
+  }
+
+  .contenedor-card-options .card img {
+    width: 80%;
+    padding: 0;
+    margin: 0.5rem;
+  }
+
+  .contenedor-card-options .card h3,
+  .contenedor-card-options .card p {
+    font-size: 1rem;
+  }
+
+  .categorias h2 {
+    font-size: 1rem;
+  }
+
+  .container-card-categorias {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container-card-categorias .categoria-card {
     width: 100%;
   }
 
@@ -716,8 +746,60 @@ main .contenedor-tiendas {
     font-size: 0.5rem;
   }
 
-  .contenedor-info-fkft .sociales-icon ul {
+  .fakefoot .contenedor-fkfoot {
+    gap: 1.5rem;
+    justify-content: center;
+    height: auto;
+  }
+
+  .contenedor-fkfoot .logo-texto-fkft {
+    width: 60%;
+  }
+
+  .contenedor-fkfoot .fkft-list {
+    display: none;
+  }
+
+  .contenedor-fkfoot .contenedor-dtos {
+    width: 10rem;
+  }
+
+  .contenedor-fkfoot .contenedor-dtos {
+    gap: 0;
+  }
+
+  .contenedor-dtos .enviar-email {
+    width: 50%;
+    font-size: 0.7rem;
     padding: 0;
+  }
+
+  .contenedor-dtos .email {
+    width: 70%;
+    padding: 0;
+  }
+
+  .contenedor-dtos .textos-dtos h2,
+  .contenedor-dtos .textos-dtos p {
+    display: inline-block;
+  }
+
+  .contenedor-info-fkft li {
+    font-size: 0.5rem;
+  }
+
+  .contenedor-footer ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  footer .contenedor-footer {
+    padding: 0.5rem;
+  }
+
+  .contenedor-footer li,
+  .contenedor-footer p {
+    font-size: 0.5rem;
   }
 }
 
